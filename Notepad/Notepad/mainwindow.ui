@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>812</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTextEdit" name="textEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>812</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="actionExit"/>
+    <addaction name="actionExit_2"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-file-medical.svg</normaloff>:/imgs/svg/fi-rr-file-medical.svg</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-envelope-open-text.svg</normaloff>:/imgs/svg/fi-rr-envelope-open-text.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-treasure-chest.svg</normaloff>:/imgs/svg/fi-rr-treasure-chest.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Save as</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-print.svg</normaloff>:/imgs/svg/fi-rr-print.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Print</string>
+   </property>
+  </action>
+  <action name="actionExit_2">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-file-excel.svg</normaloff>:/imgs/svg/fi-rr-file-excel.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-cent-sign.svg</normaloff>:/imgs/svg/fi-rr-cent-sign.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-files-medical.svg</normaloff>:/imgs/svg/fi-rr-files-medical.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-file-import.svg</normaloff>:/imgs/svg/fi-rr-file-import.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-arrow-turn-down-left.svg</normaloff>:/imgs/svg/fi-rr-arrow-turn-down-left.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="../../uicons-regular-rounded/Resources.qrc">
+     <normaloff>:/imgs/svg/fi-rr-arrow-turn-down-right.svg</normaloff>:/imgs/svg/fi-rr-arrow-turn-down-right.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../uicons-regular-rounded/Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
